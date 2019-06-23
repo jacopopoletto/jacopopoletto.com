@@ -1,2 +1,2 @@
 # jacopopoletto.com
-personal website portfolio
+source code of personal portfolio website
