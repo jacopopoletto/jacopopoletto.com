@@ -1,6 +1,3 @@
-/* font IBM Sans */
-
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400,400i,500,500i,700,700i|IBM+Plex+Serif:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap');
 
 /* personal css */
 
@@ -3204,6 +3201,10 @@ img {
     margin: 1rem
 }
 
+.ma3-5 {
+    margin: 1.5rem
+}
+
 .ma4 {
     margin: 2rem
 }
@@ -3298,6 +3299,10 @@ img {
 
 .mb3 {
     margin-bottom: 1rem
+}
+
+.mb3-5 {
+    margin-bottom: 1.5rem
 }
 
 .mb4 {
@@ -5266,6 +5271,10 @@ img {
         margin: 1rem
     }
 
+    .ma3-5-ns {
+        margin: 1.5rem
+    }
+
     .ma4-ns {
         margin: 2rem
     }
@@ -5360,6 +5369,10 @@ img {
 
     .mb3-ns {
         margin-bottom: 1rem
+    }
+
+    .mb3-5-ns {
+        margin-bottom: 1.5rem
     }
 
     .mb4-ns {
@@ -7035,6 +7048,10 @@ img {
         margin: 1rem
     }
 
+    .ma3-5-m {
+        margin: 1.5rem
+    }
+
     .ma4-m {
         margin: 2rem
     }
@@ -7129,6 +7146,10 @@ img {
 
     .mb3-m {
         margin-bottom: 1rem
+    }
+
+    .mb3-5-m {
+        margin-bottom: 1.5rem
     }
 
     .mb4-m {
@@ -8804,6 +8825,10 @@ img {
         margin: 1rem
     }
 
+    .ma3-5-l {
+        margin: 1.5rem
+    }
+
     .ma4-l {
         margin: 2rem
     }
@@ -8898,6 +8923,10 @@ img {
 
     .mb3-l {
         margin-bottom: 1rem
+    }
+
+    .mb3-5-l {
+        margin-bottom: 1.5rem
     }
 
     .mb4-l {
@@ -9356,7 +9385,7 @@ audio,video {
 }
 
 ::selection {
-    background-color: #ffdfdf;
+    background-color: gold;
 }
 
 .text-black {
@@ -9502,12 +9531,20 @@ audio,video {
     border-color: #999
 }
 
+.bg-avorio {
+    background-color: #f4f0e5
+}
+
+.b--avorio {
+    border-color: #f4f0e5
+}
+
 .bg-gomma {
-    background-color: #f4f3f4
+    background-color: #eff1f1
 }
 
 .b--gomma {
-    border-color: #f4f3f4
+    border-color: #eff1f1
 }
 
 .bg-pastel-red {
@@ -9555,8 +9592,12 @@ audio,video {
         background: #fff
     }
 
+    .bg-avorio {
+        background-color: #f4f0e5
+    }
+
     .bg-gomma-ns {
-        background-color: #f4f3f4
+        background-color: #eff1f1
     }
 }
 
@@ -9761,20 +9802,6 @@ audio,video {
 
     .top50-l {
         top: 50%
-    }
-}
-
-.mw22r {
-    max-width: 22rem
-}
-
-.mw28r {
-    max-width: 28rem
-}
-
-@media (min-width: 767px) {
-    .mw42r-ns {
-        max-width:42rem
     }
 }
 
