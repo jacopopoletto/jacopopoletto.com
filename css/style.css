@@ -11,7 +11,11 @@ body {
 }
 
 .bg-gomma {
-  background-color: #eff1f1
+  background-color: #fafafa
+}
+
+.b--dark-gomma {
+  border-color: #e6e6e6;
 }
 
 img {
@@ -23,24 +27,42 @@ img {
   margin-right: -.5rem
 }
 
+.navbar {
+  will-change: transform;
+  transition: transform .2s linear;
+  position: fixed
+}
+
+.navbar-abs {
+  will-change: transform;
+  transition: transform .2s linear;
+  position: absolute
+}
+
+.navbar--pinned {
+  transform: translateY(0)
+}
+
+.navbar--unpinned {
+  transform: translateY(-100%)
+}
+
 .relative:hover .overlaycontainer {
   opacity: 1;
   transition: 1s opacity
 }
 
+.underline-yellow {
+  background-image: linear-gradient(180deg,transparent 60%,rgba(255, 222, 55, 1) 0)
+}
+
+video {
+  display: block;
+}
+
 ::selection {
   background-color: #ffde37;
 }
-
-.underline-small {
-  border-bottom-width: 3px;
-  border-bottom-style: solid;
-}
-
-.underline-big {
-  background: #fff
-}
-
 
 
 /* MODIFIED by iosonojaypee*/
