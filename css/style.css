@@ -1,6 +1,8 @@
 /* font IBM Plex Sans + IBM Plex Serif */
 
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i|IBM+Plex+Serif:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap');
 
 /* personal CSS */
 
@@ -20,6 +22,10 @@ body {
 
 img {
   display: block
+}
+
+video {
+  display: block;
 }
 
 .mh-2 {
@@ -47,6 +53,10 @@ img {
   transform: translateY(-100%)
 }
 
+.nav-height {
+  height: 104px;
+}
+
 .relative:hover .overlaycontainer {
   opacity: 1;
   transition: 1s opacity
@@ -56,9 +66,7 @@ img {
   background-image: linear-gradient(180deg,transparent 60%,rgba(255, 222, 55, 1) 0)
 }
 
-video {
-  display: block;
-}
+
 
 ::selection {
   background-color: #ffde37;
@@ -710,6 +718,7 @@ video {
  .system-sans-serif { font-family: sans-serif; }
  .system-serif { font-family: serif; }
  /* Monospaced Typefaces (for code) */
+ .mono { font-family: 'IBM Plex Mono', monospace; }
  /* From http://cssfontstack.com */
  code, .code { font-family: Consolas, monaco, monospace; }
  .courier { font-family: 'Courier Next', courier, monospace; }
@@ -1888,6 +1897,9 @@ video {
  /* Uncomment out the line below to help debug layout issues */
  /* @import './_debug'; */
  @media screen and (min-width: 767px) {
+
+  .nav-height { height:63px; }
+
   .aspect-ratio-ns { height: 0; position: relative; }
   .aspect-ratio--16x9-ns { padding-bottom: 56.25%; }
   .aspect-ratio--9x16-ns { padding-bottom: 177.77%; }
